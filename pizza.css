@@ -1,0 +1,302 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+    box-shadow: 0 0 10px rgba(0,0,0,0);
+    background: #fff;
+    z-index: 999;
+}
+.logo a{
+    font-size: 35px;
+    color: #416d19;
+}
+.navlist{
+    display: flex;
+}
+.navlist a{
+    margin:0 30px;
+    color: #000;
+    font-size: 18px;
+    transition: all .6s;
+}
+ 
+.navlist a:hover{
+    color: #7de919;
+}
+
+.navicons i{
+    font-size: 22px;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: all .6s;
+}
+
+.navicons i:hover{
+    color: #7de919;
+}
+
+.fa-bars{
+    display: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.home-row{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.home{
+    padding: 90px 5%;
+    background: #fff67e;
+}
+
+.home-text h1{
+    font-size: 55px;
+    margin-bottom: 20px
+}
+
+.home-text p{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+a.btn{
+    background: #7de919;
+    padding: 15px 40px;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    transition: all .6s;
+}
+
+a.btn:hover{
+    color: #416d19;
+}
+
+
+
+
+
+
+
+section{
+    padding: 80px 5%;
+}
+
+.menu{
+    background: #fff;
+}
+
+.head h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #416d19;
+}
+
+.menu-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-row{
+    box-shadow: 0 0 12px rgba(0,0,0,0.3);
+    background-color: #fff;
+    border: 6px solid #fff67e;
+    padding: 20px;
+}
+
+.menu-row .img{
+    width: 100%;
+}
+
+.menu-col h3{
+    font-size: 24px;
+    color: #416d19;
+    margin-bottom: 20px;
+}
+
+.stars i{
+    color: orange;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+ .menu-icon{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .menu-icon p{
+    font-weight: bold;
+    color: #333;
+    font-size: 19px;
+ }
+
+ .menu-icon i{
+    font-size: 22px;
+    color: #416d19;
+    box-shadow: 0 0 12px rgba(0,0,0,0.3);
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.6s;
+ }
+
+.about{
+    background-color: #fff67e;
+}
+
+.about-content{
+    display: flex;
+    align-items: center;
+}
+
+.about-img{
+    flex: 1 1 45em;
+}
+
+.about-text{
+    flex: 1 1 45em;
+}
+
+.about-text h2{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.about-text p{
+    font-size: 19px;
+    color: #333;
+}
+
+.testimonial{
+   background-color: #fff;
+}
+
+.testimonials{
+    text-align: center;
+  box-shadow: 0 0 12px rgba(0,0,0,0.3);
+  background-color: #fff; 
+}
+
+.testimonials img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.testimonials h3{
+    font-size: 25px;
+    color: #416d19;
+    margin-bottom: 20px;
+}
+
+.testimonials {
+    font-size: 18px;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+.contact{
+    background: #fff67e;
+}
+
+.contact-coontent{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.contact-info{
+    flex: 1 1 45em;
+}
+
+form{
+    flex: 1 1 45em;
+}
+
+form input,textarea{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: none;
+    outline: none;
+}
+
+form input[type="submit"]{
+    background-color: #416d19;
+    color: #fff;
+}
+
+.contact-info p{
+  font-size: 20px;
+  margin-bottom: 20px;
+  letter-spacing: .4px;
+}
+
+.contact-info i{
+    color: #416d19;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.footer{
+    background: #fff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    gap: 2rem;
+}
+
+.f-logo a{
+    margin-bottom: 20px;
+}
+
+.f-logo p{
+    font-size: 10px;
+    color: #333;
+}
+
+.footer-content h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.f-info a{
+    display: block;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
